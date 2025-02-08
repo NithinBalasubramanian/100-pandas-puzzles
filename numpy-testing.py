@@ -13,6 +13,8 @@ print("list method array", list_array)
 added_array = np.add(arranged_array, list_array)
 
 print("sum of arrays", added_array)
+print("subtract of arrays", np.subtract(arranged_array, list_array))
+print("multiply of arrays", np.multiply(arranged_array, list_array))
 
 random_array  = np.random.rand(2, 2, 2)
 
